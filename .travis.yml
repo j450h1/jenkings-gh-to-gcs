@@ -1,0 +1,9 @@
+deploy:
+  provider: gcs
+  access_key_id: GOOG2MKMG5HTFSW46PAD2RDW
+  secret_access_key:
+    secure: VkjqwT+aylxMfK1oJETQkjJXA8SXd6ejSRuIMRZNQ+U3b6F5h/ka6IGLxlXrxG7pYQmVM3Aep9Gx6w/UD08XY+jVO2IvRX2yXxvj1xVLIZkMwBRRW4vzSfsw50bfVXFl95bF8jh3K/sbxr+NIfIhjy/TdCvL+sv0f8SAauLVjhmUdFUmrKlE2rmfTcKvgE7Bk9jJhfeR7DgjgE+mHiJ6vad895fxTF+DDuIgm+/j/RXSkxGnaiMSGb5npt/Lv7L9KhdvUVcMv05c78apJndrMFcL1BKgAZA2SMvZgzCC1QY75YXh07adWnnu5XSBIm7y21Pn2jZquZ/45jMIkCOeuLYpSP9DVDDidZBiRw5zeqbpXD/7wKUIKbqxAA8Js084UXAZC/3N5gjU5EAyYfqnAwBH3SpS/xmMgvEVCzaImTQA+sv5OIFGYwGdAwoQVafG2okizJR2IfhFkLd0SS8kWbOvd1fl6YZYFGujjB+xKsAMjFX8uE3VzplcQcC8KbtoFwopxS5Uf3Zg6OJKq8dwzO6MP9WVEVCVa1VQMKOZ324S4LujFld+PrqTDaY2TXdp4mwCtlK2T9N8Ogs7WrSgNq0kTz/LsS7xEY9b2AHnefyGH9GCeiNsmfxG7BRGcblzFhAIF49Za5jUWLjNKPKUVOEfn59dk3aRZ0bEXkOYheg=
+  bucket: www.hiroofing.ca
+  on:
+    repo: j450h1/jenkins-gh-to-gcs
+  acl: public-read
